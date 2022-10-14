@@ -1,0 +1,50 @@
+>> !cmake --version
+cmake version 3.16.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+>> pyenv('Version','/usr/bin/python2.7')
+
+
+ans = 
+
+  PythonEnvironment with properties:
+
+          Version: "2.7"
+       Executable: "/usr/bin/python2.7"
+          Library: ""
+             Home: "/usr"
+           Status: NotLoaded
+    ExecutionMode: InProcess
+
+>> rosgenmsg('WS/src/dynamixel-workbench-msgs')
+
+>> rosgenmsg('WS/src/dynamixel-workbench-msgs')
+Identifying message files in folder '/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs'..Done.
+Validating message files in folder '/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs'..Done.
+[1/1] Generating MATLAB interfaces for custom message packages... Done.
+Running catkin build in folder '/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64'.
+Build in progress. This may take several minutes...
+Build succeeded.build log
+ 
+To use the custom messages, follow these steps:
+ 
+1. Add the custom message folder to the MATLAB path by executing:
+ 
+addpath('/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m')
+savepath
+ 
+2. Refresh all message class definitions, which requires clearing the workspace, by executing:
+ 
+clear classes
+rehash toolboxcache
+ 
+3. Verify that you can use the custom messages. 
+   Enter "rosmsg list" and ensure that the output contains the generated
+   custom message types.
+ 
+>> addpath('/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m')
+>> addpath('/home/wulics/Documents/Robotica2022-2S/LAB3/WS/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m')
+>> savepath
+>> clear classes
+>> rehash toolboxcache
+>> rosmsg md5 dynamixel_

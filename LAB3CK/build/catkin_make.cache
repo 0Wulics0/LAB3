@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/devel -DCMAKE_INSTALL_PREFIX=/home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/install -G Unix Makefiles

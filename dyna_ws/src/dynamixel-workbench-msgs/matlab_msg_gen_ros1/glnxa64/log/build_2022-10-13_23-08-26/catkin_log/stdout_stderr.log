@@ -1,0 +1,400 @@
+ROS_DISTRO was set to 'noetic' before. Please make sure that the environment does not mix paths from different distributions.
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /home/wulics/MatLab/sys/ros1/glnxa64/ros1;/home/wulics/MatLab/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /home/wulics/MatLab/sys/ros1/glnxa64/ros1;/home/wulics/MatLab/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 (found suitable version "2.7.18", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Found PY_em: /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/lib/python2.7/site-packages/em.pyc  
+-- Using empy: /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/lib/python2.7/site-packages/em.pyc
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - dynamixel_workbench_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'dynamixel_workbench_msgs'
+-- ==> add_subdirectory(dynamixel_workbench_msgs)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- dynamixel_workbench_msgs: 18 messages, 2 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build
+[1/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/MX.msg
+[2/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/XL320.msg
+[3/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/XM.msg
+[4/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/AX.msg
+[5/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.msg
+[6/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/PROExt.msg
+[7/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/XMExt.msg
+[8/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/PRO.msg
+[9/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/XL.msg
+[10/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/srv/DynamixelCommand.srv
+[11/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/XH.msg
+[12/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/DynamixelStateList.msg dynamixel_workbench_msgs/DynamixelState
+[13/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/DynamixelState.msg
+[14/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/MX2.msg
+[15/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/EX.msg
+[16/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/srv/GetDynamixelInfo.srv dynamixel_workbench_msgs/DynamixelLoadInfo:dynamixel_workbench_msgs/DynamixelInfo
+[17/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/MXExt.msg
+[18/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/RX.msg
+[19/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/DynamixelInfo.msg dynamixel_workbench_msgs/DynamixelLoadInfo
+[20/138] cd /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/dynamixel_workbench_msgs && /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/wulics/.matlab/R2020b/ros1/glnxa64/venv/bin/python2 /home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dynamixel_workbench_msgs /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/dynamixel_workbench_msgs/msg/MX2Ext.msg
+[21/138] Generating Python from MSG dynamixel_workbench_msgs/DynamixelState
+[22/138] Generating Python from MSG dynamixel_workbench_msgs/EX
+[23/138] Generating Python from MSG dynamixel_workbench_msgs/XH
+[24/138] Generating Python from MSG dynamixel_workbench_msgs/XMExt
+[25/138] Generating Python from MSG dynamixel_workbench_msgs/XL
+[26/138] Generating C++ code from dynamixel_workbench_msgs/DynamixelState.msg
+[27/138] Generating Python from MSG dynamixel_workbench_msgs/DynamixelStateList
+[28/138] Generating Python from MSG dynamixel_workbench_msgs/MX2
+[29/138] Generating Python from MSG dynamixel_workbench_msgs/MXExt
+[30/138] Generating Python from MSG dynamixel_workbench_msgs/DynamixelInfo
+[31/138] Generating Python from MSG dynamixel_workbench_msgs/RX
+[32/138] Generating Python from MSG dynamixel_workbench_msgs/MX2Ext
+[33/138] Generating Python from MSG dynamixel_workbench_msgs/PROExt
+[34/138] Generating Python from MSG dynamixel_workbench_msgs/DynamixelLoadInfo
+[35/138] Generating Python from MSG dynamixel_workbench_msgs/XL320
+[36/138] Generating Python from MSG dynamixel_workbench_msgs/PRO
+[37/138] Generating Python from MSG dynamixel_workbench_msgs/AX
+[38/138] Generating Python from MSG dynamixel_workbench_msgs/XM
+[39/138] Generating Python from MSG dynamixel_workbench_msgs/MX
+[40/138] Generating Python code from SRV dynamixel_workbench_msgs/GetDynamixelInfo
+[41/138] Generating Python code from SRV dynamixel_workbench_msgs/DynamixelCommand
+[42/138] Generating C++ code from dynamixel_workbench_msgs/EX.msg
+[43/138] Generating Python msg __init__.py for dynamixel_workbench_msgs
+[44/138] Generating C++ code from dynamixel_workbench_msgs/XMExt.msg
+[45/138] Generating C++ code from dynamixel_workbench_msgs/XH.msg
+[46/138] Generating Python srv __init__.py for dynamixel_workbench_msgs
+[47/138] Generating C++ code from dynamixel_workbench_msgs/XL.msg
+[48/138] Generating C++ code from dynamixel_workbench_msgs/DynamixelStateList.msg
+[49/138] Generating C++ code from dynamixel_workbench_msgs/MX2.msg
+[50/138] Generating C++ code from dynamixel_workbench_msgs/MXExt.msg
+[51/138] Generating C++ code from dynamixel_workbench_msgs/DynamixelInfo.msg
+[52/138] Generating C++ code from dynamixel_workbench_msgs/RX.msg
+[53/138] Generating C++ code from dynamixel_workbench_msgs/MX2Ext.msg
+[54/138] Generating C++ code from dynamixel_workbench_msgs/PROExt.msg
+[55/138] Generating C++ code from dynamixel_workbench_msgs/DynamixelLoadInfo.msg
+[56/138] Generating C++ code from dynamixel_workbench_msgs/XL320.msg
+[57/138] Generating C++ code from dynamixel_workbench_msgs/PRO.msg
+[58/138] Generating C++ code from dynamixel_workbench_msgs/AX.msg
+[59/138] Generating C++ code from dynamixel_workbench_msgs/XM.msg
+[60/138] Generating C++ code from dynamixel_workbench_msgs/MX.msg
+[61/138] Generating C++ code from dynamixel_workbench_msgs/DynamixelCommand.srv
+[62/138] Generating C++ code from dynamixel_workbench_msgs/GetDynamixelInfo.srv
+[63/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_AX_publisher.cpp.o
+[64/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_AX_common.cpp.o
+[65/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelInfo_common.cpp.o
+[66/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_AX_subscriber.cpp.o
+[67/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelInfo_publisher.cpp.o
+[68/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelLoadInfo_common.cpp.o
+[69/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelLoadInfo_publisher.cpp.o
+[70/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelInfo_subscriber.cpp.o
+[71/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelState_common.cpp.o
+[72/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelState_publisher.cpp.o
+[73/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelLoadInfo_subscriber.cpp.o
+[74/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelState_subscriber.cpp.o
+[75/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelStateList_publisher.cpp.o
+[76/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelStateList_common.cpp.o
+[77/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelStateList_subscriber.cpp.o
+[78/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_EX_common.cpp.o
+[79/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_EX_publisher.cpp.o
+[80/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_EX_subscriber.cpp.o
+[81/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_MX_common.cpp.o
+[82/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX_publisher.cpp.o
+[83/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX_subscriber.cpp.o
+[84/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX2_publisher.cpp.o
+[85/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_MX2_common.cpp.o
+[86/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX2_subscriber.cpp.o
+[87/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX2Ext_publisher.cpp.o
+[88/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_MX2Ext_common.cpp.o
+[89/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MX2Ext_subscriber.cpp.o
+[90/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_MXExt_common.cpp.o
+[91/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MXExt_publisher.cpp.o
+[92/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_MXExt_subscriber.cpp.o
+[93/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_PRO_common.cpp.o
+[94/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_PRO_publisher.cpp.o
+[95/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_PRO_subscriber.cpp.o
+[96/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_PROExt_publisher.cpp.o
+[97/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_PROExt_common.cpp.o
+[98/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_PROExt_subscriber.cpp.o
+[99/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_RX_common.cpp.o
+[100/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_RX_publisher.cpp.o
+[101/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XH_publisher.cpp.o
+[102/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_XH_common.cpp.o
+[103/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_RX_subscriber.cpp.o
+[104/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XH_subscriber.cpp.o
+[105/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_XL_common.cpp.o
+[106/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XL_publisher.cpp.o
+[107/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XL_subscriber.cpp.o
+[108/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_XL320_common.cpp.o
+[109/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XL320_publisher.cpp.o
+[110/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XM_publisher.cpp.o
+[111/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_XM_common.cpp.o
+[112/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XL320_subscriber.cpp.o
+[113/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XM_subscriber.cpp.o
+[114/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_XMExt_common.cpp.o
+[115/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XMExt_publisher.cpp.o
+[116/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelCommand_request_common.cpp.o
+[117/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_XMExt_subscriber.cpp.o
+[118/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelCommand_response_common.cpp.o
+[119/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelCommandRequest_publisher.cpp.o
+[120/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_srv_DynamixelCommand_client.cpp.o
+[121/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_srv_DynamixelCommand_server.cpp.o
+[122/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelCommandRequest_subscriber.cpp.o
+[123/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelCommandResponse_publisher.cpp.o
+[124/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelCommandRequest_common.cpp.o
+[125/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_DynamixelCommandResponse_subscriber.cpp.o
+[126/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_GetDynamixelInfo_request_common.cpp.o
+[127/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_DynamixelCommandResponse_common.cpp.o
+[128/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_GetDynamixelInfo_response_common.cpp.o
+[129/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_srv_GetDynamixelInfo_client.cpp.o
+[130/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_GetDynamixelInfoRequest_publisher.cpp.o
+[131/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_srv_GetDynamixelInfo_server.cpp.o
+[132/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_GetDynamixelInfoRequest_subscriber.cpp.o
+[133/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_GetDynamixelInfoResponse_publisher.cpp.o
+[134/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_msg_GetDynamixelInfoResponse_subscriber.cpp.o
+[135/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_GetDynamixelInfoRequest_common.cpp.o
+[136/138] Building CXX object dynamixel_workbench_msgs/CMakeFiles/dynamixel_workbench_msgs_matlab.dir/src/dynamixel_workbench_msgs_GetDynamixelInfoResponse_common.cpp.o
+[137/138] Linking CXX shared library /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/libdynamixel_workbench_msgs_matlab.so
+[137/138] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/AX.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/DynamixelInfo.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/DynamixelState.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/DynamixelStateList.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/EX.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/MX.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/MX2.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/MX2Ext.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/MXExt.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/PRO.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/PROExt.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/RX.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/XH.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/XL.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/XL320.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/XM.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/msg/XMExt.msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/srv/DynamixelCommand.srv
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo.srv
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs-msg-paths.cmake
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/RX.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/XM.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelCommand.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/MX2.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelLoadInfo.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/EX.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/XMExt.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/GetDynamixelInfo.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/MXExt.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelInfo.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/XL.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/XH.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/AX.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/GetDynamixelInfoRequest.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelCommandResponse.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/GetDynamixelInfoResponse.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/MX.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelCommandRequest.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/MX2Ext.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/XL320.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelStateList.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/PRO.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/DynamixelState.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/PROExt.h
+Listing /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/__init__.py ...
+Listing /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_AX.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelInfo.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelLoadInfo.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelState.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelStateList.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_EX.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2Ext.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MXExt.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PRO.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PROExt.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_RX.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XH.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL320.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XM.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XMExt.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/__init__.py ...
+Listing /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_DynamixelCommand.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_GetDynamixelInfo.py ...
+Compiling /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/__init__.py ...
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/__init__.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/__init__.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_DynamixelCommand.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_DynamixelCommand.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_GetDynamixelInfo.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/__init__.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/srv/_GetDynamixelInfo.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/__init__.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/__init__.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelLoadInfo.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_RX.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelStateList.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XM.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2Ext.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_AX.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelState.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PRO.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelState.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_EX.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XM.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PRO.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelInfo.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PROExt.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2Ext.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_RX.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MXExt.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelLoadInfo.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL320.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MXExt.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XL320.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/__init__.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_AX.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XH.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_EX.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XMExt.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelStateList.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_MX2.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XMExt.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_XH.py
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_DynamixelInfo.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/dynamixel_workbench_msgs/msg/_PROExt.pyc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/dynamixel_workbench_msgs.pc
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs-msg-extras.cmake
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig.cmake
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig-version.cmake
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/share/dynamixel_workbench_msgs/package.xml
+-- Up-to-date: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/include/dynamixel_workbench_msgs/visibility_control.h
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/lib/libdynamixel_workbench_msgs_matlab.so
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/MX2.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/GetDynamixelInfoResponse.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelCommandResponse.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/XM.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelLoadInfo.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/AX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/XH.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/MX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelCommandRequest.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelStateList.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelInfo.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/XL320.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/RX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/XL.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/PRO.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/EX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/DynamixelState.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/XMExt.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/MXExt.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/PROExt.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/MX2Ext.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+dynamixel_workbench_msgs/GetDynamixelInfoRequest.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/xM.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelLoadInfo.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/xH.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/getDynamixelInfoRequest.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelCommandResponse.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/xL320.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/getDynamixelInfoResponse.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelState.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/pRO.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/mX2.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/mX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/rX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/mXExt.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelStateList.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/mX2Ext.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelInfo.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/pROExt.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/xL.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/dynamixelCommandRequest.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/eX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/aX.m
+-- Installing: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+dynamixel_workbench_msgs/xMExt.m
+Base path: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64
+Source space: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/home/wulics/MatLab/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/home/wulics/MatLab/sys/ros1/glnxa64/ros1;/home/wulics/MatLab/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j4 -l4" in "/home/wulics/Documents/Robotica2022-2S/LAB3/dyna_ws/src/dynamixel-workbench-msgs/matlab_msg_gen_ros1/glnxa64/build"
+####
