@@ -1,0 +1,1 @@
+/home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/devel/.private/dynamixel_one_motor/lib/pkgconfig/dynamixel_one_motor.pc

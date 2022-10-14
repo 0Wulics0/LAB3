@@ -1,0 +1,6 @@
+devel_space: /home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/devel
+install: false
+install_space: /home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/install
+profile: default
+source_space: /home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK/src
+workspace: /home/wulics/Documents/Robotica2022-2S/LAB3/LAB3CK
