@@ -4,6 +4,10 @@
 El primer paso del laboratorio es determinar las longitudes en la configuración de home del manipulador para poder establecer los parámetros DH del mismo y de esa manera
 poder utilizar el toolbox de peter corke a lo largo del desarrollo del laboratorio.
 
+![Diagrama](/Img/Diagrama.jpeg)
+
+![MarcosDH](/Img/MarcosDH.jpeg)
+
 En este caso las mediciones resultaron en la siguiente tabla de DH realizada a partir del ToolBox de Peter Corke:
 
 ![Parámetros DH](/Img/DH.png)
