@@ -6,6 +6,8 @@ poder utilizar el toolbox de peter corke a lo largo del desarrollo del laborator
 
 En este caso las mediciones resultaron en la siguiente tabla de DH realizada a partir del ToolBox de Peter Corke:
 
+![Parámetros DH](/Img/DH.png)
+
 ### Conexión Dynamixel MATLAB
 Inicialmente es necesario instalar los paquetes necesarios para manipular los motores dinamixel por lo que se ejecuta la siguiente serie de comandos dentro de la 
 carpeta del entorno catkin creado:
